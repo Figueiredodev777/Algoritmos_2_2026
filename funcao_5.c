@@ -28,9 +28,9 @@ int main() {
     scanf("%d", &valor);
 
     if (n_perfeito(valor)) {
-        printf("%d e um numero perfeito! (Retorno: %d)\n", valor, n_perfeito(valor));
+        printf("%d e um numero perfeito, %d\n", valor, n_perfeito(valor));
     } else {
-        printf("%d nao e um numero perfeito. (Retorno: %d)\n", valor, n_perfeito(valor));
+        printf("%d nao e um numero perfeito, %d\n", valor, n_perfeito(valor));
     }
 
     return 0;
