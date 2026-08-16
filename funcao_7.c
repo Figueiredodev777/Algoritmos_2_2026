@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 float calcular_media() {
-    float valor, soma = 0.0f;
+    float valor, soma = 0.0;
     int quantidade = 0;
 
     printf("Digite valores positivos (digite 0 ou um numero negativo para parar):\n");
@@ -21,7 +21,7 @@ float calcular_media() {
     if (quantidade == 0)
     {
         printf("Nenhum valor positivo foi inserido.\n");
-        return 0.0f;
+        return 0.0;
     }
 
     return soma / quantidade;
@@ -31,7 +31,7 @@ int main() {
     float media = calcular_media();
 
     if (media > 0) {
-        printf("\nA media aritmetica dos valores digitados e: %.2f\n", media);
+        printf("A media aritmetica dos valores digitados e: %.2f\n", media);
     }
 
     return 0;
